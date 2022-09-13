@@ -16,26 +16,26 @@ body{
     justify-content: flex-end;
 } */
 header.site-header {
-    height: 15vh;
+    height: 20vh;
     margin-top: 3rem;
     background-color: lightgray;
     border-radius: 10px;
 }
 header.site-header h1 {
-    color: black
-    padding: 1rem;
-    font-size: 30px;
-}
-#main-header {
-    margin-top: 2rem;
-}
+    padding: 2rem;
+    color: rgb(66, 65, 65);
+    font-size: 28px;
+    letter-spacing: 3px;
+} 
 nav {
-    background-color: rgba(0,0,0,0.2);
+    height: vh;
+    background-color: rgba(0,0,0,0.1);
     padding: 1rem;
     text-align: right;
+    border-radius: 5px;
 }
 nav a {
-    color: white;
+    color: rgb(70, 69, 69);
     text-decoration: none;
     margin-right: 1rem;
 }
