@@ -45,6 +45,37 @@ h2 {
     text-align: center;
     margin: 1rem;
 }
+.form-container {
+    background-color: #dedede;
+    background: hsl(0 0% 70% / 0.6);
+    width: 60%;
+    border-radius: 15px;
+    padding: 1rem;
+    margin-right: auto;
+    margin-left: auto;
+}
+.input-container {
+    display: flex;
+    flex-direction: row;
+    height: 55px;
+    padding: 0.5rem;
+}
+.input-container label {
+    display: flex;
+    flex-basis: 20%;
+    align-items: center;
+    justify-content: right;
+    text-align: right;
+    margin-right: 1rem;
+    letter-spacing: 1px;
+}
+.input-container input {
+    flex-basis: 75%;
+    padding: 3px;
+    font-size: 16px;
+    border-radius: 5px;
+    border: 1px solid;
+}
 .btn {
     padding: 0.5rem;
     border: none;
@@ -52,4 +83,12 @@ h2 {
     letter-spacing: 1px;
     color: white;
     cursor: pointer;
+}
+#btnHideForm {
+    border: none;
+    padding: none;
+    font-size: xx-large;
+    background-color: #dedede;
+    background: hsl(0 0% 70% / 0.1);
+    float: left;
 }
