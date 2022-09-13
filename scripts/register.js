@@ -54,10 +54,10 @@ function init() {
         $("nav").hide();
     });
 
-    $(".form-container").hide(); 
-    $("#btnShowForm").on("click",function(){
+    //$(".form-container").hide(); 
+    //$("#btnShowForm").on("click",function(){
         //$(".form-container").show();
-        $(".form-container").slideDown(1000);
+    //    $(".form-container").slideDown(1000);
     });
 
     $("#btnHideForm").on("click",function(){

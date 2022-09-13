@@ -1,27 +1,36 @@
 * {
     margin: 0;
+  
 }
 body{
+    height: 100vh;
     font-family: Arial, Helvetica, sans-serif;
+    background-color: lightgray;
+    background-image: url(/img/blurryBack.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
 }
-.flex-btn {
+/*.flex-btn {
     display: flex;
     flex-direction: row;
     justify-content: flex-end;
-}
+} */
 header.site-header {
-    height: 20vh;
-    background-color: rgb(9,80,80);
+    height: 15vh;
+    margin-top: 3rem;
+    background-color: lightgray;
+    border-radius: 10px;
 }
 header.site-header h1 {
-    color: white;
-    text-align: center;
+    color: black
     padding: 1rem;
-    text-shadow: 2px 2px black;
     font-size: 30px;
 }
+#main-header {
+    margin-top: 2rem;
+}
 nav {
-    background-color: rgba(0,0,0,0.446);
+    background-color: rgba(0,0,0,0.2);
     padding: 1rem;
     text-align: right;
 }
@@ -38,17 +47,18 @@ h2 {
     background-color: #dedede;
     width: 60%;
     border-radius: 10px;
-    padding: 2rem;
+    padding: 1rem;
     margin-right: auto;
     margin-left: auto;
 }
 .input-container {
     display: flex;
     flex-direction: row;
+    height: 55px;
     padding: 0.5rem;
 }
 .input-container label {
-    flex-basis: 25%;
+    flex-basis: 20%;
     text-align: right;
     margin-right: 1rem;
 }
@@ -56,12 +66,19 @@ h2 {
     flex-basis: 75%;
     padding: 3px;
     font-size: 16px;
+    border-radius: 4px;
 }
 .btn {
-    padding: 1rem;
+    padding: 0.5rem;
     border: none;
     background-color: black;
     font-size: 16px;
     color: white;
     cursor: pointer;
+}
+#btnHideForm {
+    border: none;
+    padding: none;
+    font-size: xx-large;
+    background-color: #dedede;
 }
