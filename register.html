@@ -19,7 +19,14 @@
 
     <main>
         <h2>Register a new user</h2>
+        <div class="flex-btn">
+            <button class="btn" id="btnShowForm">Show Form</button>
+        </div>
+
         <div class="form-container">
+            <div class="flex-btn">
+                <button id="btnHideForm">❌</button>
+            </div>
             <!-- name, age, gender, address, phone, email, password, color -->
             <div class="input-container">
                 <label>Email: </label>
@@ -54,6 +61,10 @@
                 <input type="text" id="userPhone">
             </div>
             <div class="input-container">
+                <label>Color: </label>
+                <input type="color" id="userColor">
+            </div>
+            <div class="input-container">
                 <label>Payment Method: </label>
                 <select id="userPayment">
                     <option value="" selected disabled>-- Select an option --</option>
@@ -62,17 +73,14 @@
                     <option value="3">Google Pay</option>
                 </select>
             </div>
-            <div class="input-container">
-                <label>Color: </label>
-                <input type="color" id="userColor">
-            </div>
-            <button onclick="register();">Register</button>
+            <button class="btn" id="btnSave">Register</button>
     </main>
 
     <footer>
 
     </footer>
     <script src="https://code.jquery.com/jquery-3.6.1.min.js"></script>
+    <script src="scripts/storeManager.js"></script>
     <script src="scripts/register.js"></script>
 </body>
 </html>
