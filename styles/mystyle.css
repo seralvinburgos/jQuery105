@@ -6,7 +6,7 @@ body{
     height: 100vh;
     font-family: Arial, Helvetica, sans-serif;
     background-color: lightgray;
-    background-image: url(/img/blurryBack.jpg);
+    background-image: url(/img/tealYellow.jpg);
     background-repeat: no-repeat;
     background-size: cover;
 }
@@ -37,6 +37,15 @@ nav a {
     text-decoration: none;
     margin-right: 1rem;
     letter-spacing: 1px;
+    cursor: pointer;
+    transition: .5s;
+}
+nav a:hover {
+    color: white;
+    text-shadow: 0 0 5px #dcd210,
+                0 0 25px #dcd210,
+                0 0 50px #dcd210,
+                0 0 100px #dcd210;
 }
 #navIndex {
     color: white;
@@ -47,7 +56,7 @@ h2 {
 }
 .form-container {
     background-color: #dedede;
-    background: hsl(0 0% 70% / 0.6);
+    background: hsl(0 0% 60% / 0.6);
     width: 60%;
     border-radius: 15px;
     padding: 1rem;
@@ -83,12 +92,29 @@ h2 {
     letter-spacing: 1px;
     color: white;
     cursor: pointer;
+    transition: .5s;
+}
+.btn:hover {
+    color: white;
+    text-shadow: 0 0 5px #dcd210,
+                0 0 25px #dcd210,
+                0 0 50px #dcd210,
+                0 0 100px #dcd210;
 }
 #btnHideForm {
     border: none;
     padding: none;
     font-size: xx-large;
     background-color: #dedede;
-    background: hsl(0 0% 70% / 0.1);
+    background: hsl(0 0% 60% / 0.1);
     float: left;
+    cursor: pointer;
+    transition: .5s;
+}
+#btnHideForm:hover {
+    color: white;
+    text-shadow: 0 0 5px #dcd210,
+                0 0 25px #dcd210,
+                0 0 50px #dcd210,
+                0 0 100px #dcd210;
 }
