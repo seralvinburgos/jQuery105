@@ -3,10 +3,10 @@
   
 }
 body{
-    height: 110vh;
+    height: 100vh;
     font-family: Arial, Helvetica, sans-serif;
     background-color: lightgray;
-    background-image: url(/img/tealyellowgradient.jpg);
+    background-image: url(/img/blurryBack.jpg);
     background-repeat: no-repeat;
     background-size: cover;
 }
@@ -37,28 +37,9 @@ nav a {
     text-decoration: none;
     margin-right: 1rem;
     letter-spacing: 1px;
-    cursor: pointer;
-    transition: .5s;
-}
-nav a:hover {
-    color: #fff;
-    text-shadow: 0 0 5px #dcd210,
-                0 0 25px #dcd210,
-                0 0 50px #dcd210,
-                0 0 100px #dcd210;
 }
 #navRegister {
-   /* color: white */
-   cursor: pointer;
-   color: white;
-   transition: .5s;
-}
-#navRegister:hover {
-    color: #fff;
-    text-shadow: 0 0 5px #dcd210,
-                0 0 25px #dcd210,
-                0 0 50px #dcd210,
-                0 0 100px #dcd210;
+    color: white
 }
 h2 {
     text-align: center;
@@ -73,7 +54,7 @@ main h6 {
 }
 .form-container {
     background-color: #dedede;
-    background: hsl(0 0% 60% / 0.6);
+    background: hsl(0 0% 70% / 0.6);
     width: 60%;
     border-radius: 15px;
     padding: 1rem;
@@ -109,28 +90,12 @@ main h6 {
     letter-spacing: 1px;
     color: white;
     cursor: pointer;
-    transition: .5s;
-}
-.btn:hover {
-    color: #fff;
-    text-shadow: 0 0 5px #dcd210,
-                0 0 25px #dcd210,
-                0 0 50px #dcd210,
-                0 0 100px #dcd210;
 }
 #btnHideForm {
     border: none;
     padding: none;
     font-size: xx-large;
     background-color: #dedede;
-    background: hsl(0 0% 60% / 0.1);
+    background: hsl(0 0% 70% / 0.1);
     float: left;
-    cursor: pointer;
-    transition: .5s;
-}
-#btnHideForm:hover {
-    text-shadow: 0 0 5px #dcd210,
-                0 0 25px #dcd210,
-                0 0 50px #dcd210,
-                0 0 100px #dcd210;
 }
