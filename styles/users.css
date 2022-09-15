@@ -47,13 +47,14 @@ nav a:hover {
                 0 0 50px #dcd210,
                 0 0 100px #dcd210;
 }
-#navRegister {
+#navUsers {
     color: white
 }
-h2 {
+main h2 {
     text-align: center;
     margin: 1rem;
     color: rgb(70, 69, 69);
+    letter-spacing: 2px;
 }
 main h6 {
     margin-bottom: 1rem;
@@ -61,6 +62,10 @@ main h6 {
     font-style: italic;
     letter-spacing: 2px;
     color: rgb(70, 69, 69);
+}
+#tableHeader {
+    letter-spacing: 1px;
+    background: hsl(0 0% 50% / 0.5);
 }
 .form-container {
     background-color: #dedede;

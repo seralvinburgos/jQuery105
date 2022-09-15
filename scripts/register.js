@@ -50,9 +50,9 @@ function register() {
 function init() {
     //hook event
     $("#btnSave").on("click",register);
-    $("h1").on("click",function(){
-        $("nav").hide();
-    });
+    //$("h1").on("click",function(){
+    //    $("nav").hide();
+    //});
 
     $(".form-container").hide(); 
     $("#btnShowForm").on("click",function(){
