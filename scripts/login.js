@@ -24,7 +24,7 @@ function login() {
     $("#alert-error").removeClass("hide");
     setTimeout(function () {
       $("#alert-error").addClass("hide");
-    }, 3000);
+    }, 2000);
   }
 }
 
